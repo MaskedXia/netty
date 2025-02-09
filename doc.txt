@@ -1,0 +1,20 @@
+NIO基础 non-blocking io 非阻塞IO
+    Channel 双向通道
+    Buffer 缓冲区
+    Selector 多路复用器
+
+Netty 异步的、基于事件驱动的网络应用框架（同步多路复用）
+
+问题：
+Cannot download sources: Sources not found for: io.netty:netty-all:4.1.39.Final (2 minutes ago)
+    在对应项目pom.xml所在目录下执行以下命令：
+    mvn dependency:resolve -Dclassifier=sources
+
+VM参数
+    -Dio.netty.allocator.type=unpooled -Dio.netty.noPreferDirect=true -Dio.netty.noUnsafe=true
+
+
+CTRL + f12 查看方法
+ctrl + alt + B 调用
+ctrl + B 被调用
+shift + shift 查看
